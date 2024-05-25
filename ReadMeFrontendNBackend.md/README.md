@@ -1,3 +1,5 @@
+
+
 # chatbot-backend
 
 ## Project setup
@@ -11,6 +13,8 @@ npm install express axios dotenv cors
 
 # .env
 .env: Environment variables configuration file.
+
+# It is worth noting that replicate disables API Token that are uploaded on GitHub, thus a new token will have to be generated for this bot to run successfully
 
 REPLICATE_API_TOKEN=your_replicate_api_token
 
